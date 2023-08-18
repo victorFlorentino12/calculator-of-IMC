@@ -18,7 +18,7 @@ form.addEventListener('submit', (event)=>{
         return
     }
     if(imcValor>40){
-        setResultado(`Imc de ${imcValor} Obesidade grau III é a thais carla mirim`, true)
+        setResultado(`Imc de ${imcValor} Obesidade grau III `, true)
 
     }else if(imcValor>35 && imcValor<39.9){
         setResultado(`Imc de ${imcValor} Obesidade grau II`, true)
